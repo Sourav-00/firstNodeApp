@@ -10,6 +10,9 @@ app.get('/', (req, res) => {
 app.get('/xyz',(req,res)=>{
     res.send('I am XYZ')
 })
+app.get('/abc',(req,res)=>{
+    res.send('I am ABC')
+})
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
